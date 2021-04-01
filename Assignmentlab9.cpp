@@ -64,8 +64,8 @@ int** populateArray(int N){
 //Searchvalid entries
 void searchValidEntries(int N, int XL,int YL,int XH,int YH){
     int** arr=populateArray(N);
-    for(int i=x_1;i<=x_2;++i){
-        for(int j=y_1;j<=y_2;++j){
+    for(int i=XL;i<=XH;++i){
+        for(int j=YL;j<=YH;++j){
             if(arr[i][j]>0){
                 cout<<"("<<i<<","<<j<<")"<<" :"<<arr[i][j]<<endl;
             }
