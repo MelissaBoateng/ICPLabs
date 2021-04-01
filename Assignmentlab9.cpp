@@ -4,8 +4,9 @@
 
 
 #include <iostream>
-#include <ctime>
 #include <cstdlib>
+#include <ctime>
+
 using namespace std;
 
 // Create a 2D-array of size 101 by 101.
@@ -39,7 +40,7 @@ int** populateArray(int N){
     
     
 
-//output function  
+//output function  to print Arrays
 
 void output(int A[101][101])
 {
