@@ -42,7 +42,7 @@ int** populateArray(int N){
 
 //output function  to print Arrays
 
-void output(int A[101][101])
+/*void output(int A[101][101])
 {
     int sum;
 
@@ -60,6 +60,7 @@ void output(int A[101][101])
     }
 
 }
+*/
 //Searchvalid entries
 void searchValidEntries(int N, int XL,int YL,int XH,int YH){
     int** arr=populateArray(N);
